@@ -3,11 +3,11 @@ module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
     height: {
-      "banner": "400px"
+      banner: "400px",
     },
     extend: {
       backgroundImage: {
-        "banner-img": "url('https://via.placeholder.com/1600x400')",
+        "banner-img": "url(images/banner.jpg)",
       },
     },
   },

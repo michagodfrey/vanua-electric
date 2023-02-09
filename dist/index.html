@@ -4,77 +4,110 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="output.css" />
-    <title></title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Vanua Electrical Company</title>
   </head>
-  <body class="h-full">
-    <header class="bg-gray-800 text-white flex flex-row justify-between p-4">
-      <p>Call us now: (+679) 960 3161</p>
-      <p>Open Monday to Friday, 9am to 5pm</p>
+  <body class="bg-yellow-200">
+    <header class="bg-gray-800 text-white flex flex-row justify-between p-4 w-full">
+      <p class="hidden sm:inline-flex">Open Monday to Friday, 9am to 5pm</p>
+      <a href="tel:+6799603161">Call us now: (+679) 960 3161</a>
     </header>
-    <div
-      class="bg-banner-img bg-cover text-center h-banner flex justify-center items-center"
-    >
-      <div>
-        <h1 class="text-3xl text-red-600 font-bold">
-          Vanua Electrical Company
-        </h1>
-        <p>Providing high-quality electrical services</p>
-      </div>
-    </div>
-    <div class="services">
-      <div>
-        <h2>Our Services</h2>
-        <ul>
-          <li>Residential Electrical Services</li>
-          <li>Commercial Electrical Services</li>
-          <li>Emergency Electrical Services</li>
-          <li>Electrical Repairs</li>
-        </ul>
-      </div>
-    </div>
-    <div class="why-us">
-      <div>
-        <h2>Why Choose Us</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor,
-          magna et suscipit pellentesque, libero sapien auctor odio, eu bibendum
-          est ante id nibh.
-        </p>
-      </div>
-    </div>
-    <div class="testimonials">
-      <div>
-        <h2>Testimonials</h2>
-        <blockquote>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor,
-          magna et suscipit pellentesque, libero sapien auctor odio, eu bibendum
-          est ante id nibh."
-          <cite>- John Doe</cite>
-        </blockquote>
-        <blockquote>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor,
-          magna et suscipit pellentesque, libero sapien auctor odio, eu bibendum
-          est ante id nibh."
-          <cite>- Jane Doe</cite>
-        </blockquote>
-      </div>
-    </div>
-    <div class="contact">
-      <div>
-        <h2>Contact Us</h2>
-        <p>Address: 123 Main St, Anytown USA 12345</p>
-        <p>Phone: (555) 555-5555</p>
-        <p>Email: info@vanua-electrical.com</p>
-        <div class="map">
-          <!-- Add a map embed code here -->
+    <main>
+      <div
+        class="bg-banner-img bg-cover bg-center md:bg-top text-center h-banner flex justify-center items-center"
+      >
+        <div class="bg-gray-700 p-2">
+          <h1 class="text-3xl text-white font-bold">
+            Vanua Electrical Company
+          </h1>
+          <p class="text-xl text-white font-bold">
+            Providing high-quality electrical services in Vanua Levu
+          </p>
         </div>
       </div>
-    </div>
+      <div class="m-2 flex justify-center">
+        <img class="w-64 rounded-lg" src="images/logo.jpg" alt="vanua electrical company logo" />
+      </div>
+      <div class="flex justify-center">
+        <div class="max-w-xl">
+          <h2 class="text-center text-3xl mx-2 mt-4">We are the best electrician service in Vanua Levu</h2>
+          <p class="text-center m-2">
+            Jelly sweet roll jelly beans biscuit pie macaroon chocolate donut. Carrot cake caramels pie sweet apple pie tiramisu carrot cake. Marzipan marshmallow croissant tootsie roll lollipop.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="text-center p-4">
+          <h2 class="text-2xl">Our Services</h2>
+          <ul class="flex justify-evenly flex-wrap p-4">
+            <li class="flex flex-col items-center m-2">
+              <img class="w-16" src="images/house-svgrepo-com.svg" alt="residence icon" />
+              Residential Electrical Services
+            </li>
+            <li class="flex flex-col items-center m-2">
+              <img class="w-16" src="images/shop-1-svgrepo-com.svg" alt="commercial icon" />
+              Commercial Electrical Services
+            </li>
+            <li class="flex flex-col items-center m-2">
+              <img class="w-16" src="images/alert-svgrepo-com.svg" alt="emergency icon" />
+              Emergency Electrical Services
+            </li>
+            <li class="flex flex-col items-center m-2">
+              <img class="w-16" src="images/broken-cable-electrician-svgrepo-com.svg" alt="repair icon" />
+              Electrical Repairs
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="p-4 flex justify-center">
+        <div class="max-w-2xl text-center">
+          <h2 class="text-2xl">Why Choose Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor,
+            magna et suscipit pellentesque, libero sapien auctor odio, eu
+            bibendum est ante id nibh.
+          </p>
+        </div>
+      </div>
+      <div class="p-4">
+        <div>
+          <h2 class="text-center text-2xl">Testimonials</h2>
+          <div class="flex flex-col md:flex-row justify-evenly items-center">
+          <blockquote class="bg-blue-200 max-w-sm m-2 p-2 text-center shadow-md">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            auctor, magna et suscipit pellentesque, libero sapien auctor odio,
+            eu bibendum est ante id nibh."
+            <cite>- John Doe</cite>
+          </blockquote>
+          <blockquote class="bg-blue-200 max-w-sm m-2 p-2 text-center shadow-md">
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            auctor, magna et suscipit pellentesque, libero sapien auctor odio,
+            eu bibendum est ante id nibh."
+            <cite>- Jane Doe</cite>
+          </blockquote>
+        </div>
+      </div>
+      <div class="w-full flex justify-center mt-10">
+        <div class="w-full max-w-screen-2xl bg-gray-50 p-4 text-xl">
+          <h2 class="text-3xl">Contact Us</h2>
+          <p>Address: Main St, Savusavu Vanau Levu</p>
+          <p>Phone: (+679) 960-3161</p>
+          <p>Email: info@vanua-electrical.com</p>
+          <div class="mt-4">
+            <iframe class="w-full h-banner" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d242747.24905025825!2d179.47455332166263!3d-16.57341148536009!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sfj!4v1675910464972!5m2!1sen!2sfj" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer
-      class="bg-gray-800 text-white text-center p-5 w-full absolute bottom-0 left-0"
+      class="bg-gray-800 text-white text-center p-5"
     >
-      <p>&copy; 2022 Vanua Electrical Company</p>
+      <p>Facebook & other social media links go here</p>
     </footer>
   </body>
 </html>
