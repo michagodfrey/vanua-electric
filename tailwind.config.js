@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/*.{html,js}"],
+  content: ["./docs/public/*.{html,js}"],
   theme: {
     height: {
       banner: "400px",
