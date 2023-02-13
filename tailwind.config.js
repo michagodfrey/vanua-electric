@@ -7,7 +7,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "banner-img": "url(images/banner.jpg)",
+        "banner-img": "url(https://via.placeholder.com/1600x400)",
       },
     },
   },
