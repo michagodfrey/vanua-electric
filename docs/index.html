@@ -19,6 +19,15 @@
       rel="stylesheet"
     />
 
+    <!-- Scripts to send email -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init("user_0tagcQ1gmclJDxwAymjso");
+      })();
+    </script>
+    <script src="message.js" defer></script>
+
     <title>Vanua Electrical Company</title>
   </head>
   <body class="bg-yellow-200">
@@ -60,10 +69,68 @@
         </p>
       </div>
       <hr class="my-20 border-black" />
-      <div class="m-auto max-w-screen-2xl text-center">
+      <div class="m-auto max-w-screen-2xl">
         <h2 class="mb-5 text-center text-4xl font-bold md:text-5xl">
-          Message section (location flexible)
+          Message section
         </h2>
+        <p class="text-center text-2xl">
+          Send a message to Vanua Electrical Company
+          <br />
+          This needs to be validated for vec894@gmail.com
+        </p>
+        <div class="mt-5 max-w-screen-2xl lg:flex">
+          <form
+            class="m-auto max-w-md rounded-md border-4 border-gray-500 bg-blue-300 py-4 lg:w-full"
+          >
+            <div class="ml-4 mb-2 flex items-center">
+              <img
+                class="w-16"
+                src="images/chat-svgrepo-com.svg"
+                alt="chat icon"
+              />
+              <span class="ml-4 text-xl">Send a message to us</span>
+            </div>
+            <div class="text-center">
+              <input
+                id="name"
+                type="text"
+                class="w-11/12 max-w-md rounded-md p-4"
+                name="user_name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="my-4 text-center">
+              <input
+                id="email"
+                type="email"
+                class="w-11/12 max-w-md rounded-md p-4"
+                name="user_email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="my-4 text-center">
+              <textarea
+                id="message"
+                class="h-36 w-11/12 max-w-md rounded-md p-4"
+                name="message"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="ml-4 text-left">
+              <button
+                type="submit"
+                class="rounded-md bg-red-600 p-2 text-xl font-bold text-white hover:bg-red-800"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+          <img
+            class="hidden lg:inline"
+            src="http://placeimg.com/640/480/nature"
+            alt="placeholder image"
+          />
+        </div>
       </div>
       <hr class="my-20 border-black" />
       <div class="p-4">
