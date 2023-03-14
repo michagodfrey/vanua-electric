@@ -18,8 +18,7 @@ window.onload = function () {
         function () {
           // loading.style.display = "none";
           alert(
-            `Sent! Thank you for the message and we will get back to you as soon as possible. 
-            A copy has been sent to ${email.value}, you may need to check your spam folder.`
+            `Sent! Thank you for the message and we will get back to you as soon as possible. A copy has been sent to ${email.value}, you may need to check your spam folder.`
           );
           sender.value = "";
           email.value = "";
