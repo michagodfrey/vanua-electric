@@ -30,6 +30,9 @@ module.exports = {
           },
         },
       },
+      gridTemplateColumns: {
+        "special": "repeat(3, 64px)"
+      }
     },
   },
   plugins: [],
