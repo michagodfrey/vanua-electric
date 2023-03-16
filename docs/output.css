@@ -600,6 +600,10 @@ video {
   margin-right: 0.25rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -642,10 +646,6 @@ video {
 
 .w-11\/12 {
   width: 91.666667%;
-}
-
-.w-60 {
-  width: 15rem;
 }
 
 .w-12 {
@@ -709,18 +709,6 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-special {
-  grid-template-columns: repeat(3, 64px);
-}
-
-.grid-cols-\[\] {
-  grid-template-columns: ;
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -765,10 +753,6 @@ video {
   justify-content: space-evenly;
 }
 
-.gap-0 {
-  gap: 0px;
-}
-
 .overflow-hidden {
   overflow: hidden;
 }
@@ -783,6 +767,10 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-b-lg {
@@ -808,9 +796,9 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.bg-storm-gray {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(176 184 180 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-forest-biome {
@@ -821,11 +809,6 @@ video {
 .bg-living-coral {
   --tw-bg-opacity: 1;
   background-color: rgb(252 118 106 / var(--tw-bg-opacity));
-}
-
-.bg-gray-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
 .bg-blue-300 {
@@ -843,9 +826,14 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.bg-white {
+.bg-storm-gray {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(176 184 180 / var(--tw-bg-opacity));
+}
+
+.bg-red-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .bg-banner-img {
@@ -858,6 +846,10 @@ video {
 
 .bg-center {
   background-position: center;
+}
+
+.fill-forest-biome {
+  fill: #184A45;
 }
 
 .p-4 {
@@ -876,12 +868,12 @@ video {
   padding: 3rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .py-4 {
@@ -894,8 +886,21 @@ video {
   padding-right: 1.25rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
 }
 
 .pb-4 {
@@ -908,18 +913,6 @@ video {
 
 .pl-4 {
   padding-left: 1rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pl-5 {
-  padding-left: 1.25rem;
 }
 
 .text-left {
@@ -1001,6 +994,11 @@ video {
   color: rgb(153 27 27 / var(--tw-text-opacity));
 }
 
+.text-forest-biome {
+  --tw-text-opacity: 1;
+  color: rgb(24 74 69 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1014,6 +1012,18 @@ video {
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
