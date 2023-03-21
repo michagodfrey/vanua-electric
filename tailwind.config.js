@@ -3,18 +3,18 @@ module.exports = {
   content: ["./docs/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        prozaLibreBold: ["Proza Libre", "sans-serif"],
+      },
       colors: {
-        "background": "#f7f8f8",
-        "storm-gray": "#B0B8B4",
-        "storm-gray-light": "#d8dcda",
         "forest-biome": "#184A45",
-        "forest-biome-light": "#2f5c58",
-        "living-coral": "#FC766A",
-        "living-coral-dark": "#e36a5f",
+        "forest-biome-light": "#466e6a",
+        "call-to-action": "#DA392B",
+        "call-to-action-hover": "#e36a5f",
         "logo-color": "#87c0cd",
       },
       backgroundImage: {
-        "banner-img": "url('images/savusavu-bay-scaled.jpg')",
+        "banner-img": "url('images/savusavu-bay.webp')",
       },
       animation: {
         kenburnsBottom: "kenburnsBottom 5s linear 1s both",
