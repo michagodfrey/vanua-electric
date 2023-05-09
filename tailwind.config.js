@@ -9,8 +9,8 @@ module.exports = {
       colors: {
         "forest-biome": "#184A45",
         "forest-biome-light": "#466e6a",
-        "call-to-action": "#DA392B",
-        "call-to-action-hover": "#e36a5f",
+        "call-to-action": "#FC766A",
+        "call-to-action-hover": "#fd9188",
         "logo-color": "#87c0cd",
       },
       backgroundImage: {

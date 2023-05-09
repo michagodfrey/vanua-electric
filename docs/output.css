@@ -424,6 +424,8 @@ video {
 
   font-weight: 700;
 
+  font-display: swap;
+
   src: url("fonts/prozalibre-bold-webfont.woff2") format("woff2"),
         url("fonts/prozalibre-bold-webfont.woff") format("woff");
 }
@@ -826,7 +828,7 @@ video {
 
 .bg-call-to-action {
   --tw-bg-opacity: 1;
-  background-color: rgb(218 57 43 / var(--tw-bg-opacity));
+  background-color: rgb(252 118 106 / var(--tw-bg-opacity));
 }
 
 .bg-forest-biome {
@@ -979,7 +981,22 @@ video {
 
 .text-call-to-action {
   --tw-text-opacity: 1;
-  color: rgb(218 57 43 / var(--tw-text-opacity));
+  color: rgb(252 118 106 / var(--tw-text-opacity));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1022,7 +1039,7 @@ video {
 
 .hover\:bg-call-to-action-hover:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(227 106 95 / var(--tw-bg-opacity));
+  background-color: rgb(253 145 136 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-forest-biome-light:hover {
