@@ -1,6 +1,6 @@
 # Vanua Electrical Company
 
-These files are for the website of Vanua Electrical Company. A small electrician business on Vanua Levu, Fiji.
+This repository contains files for a website for a small electrician business on Vanua Levu, Fiji. The website has been retired and is no longer live.
 
 ## Resources
 
